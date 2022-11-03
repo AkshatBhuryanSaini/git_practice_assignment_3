@@ -1,7 +1,10 @@
+var num=13;
+
 var count=0;
 
+
 for(var i=1; i<=num; i++){
-if(num%2==0){
+if(num%i==0){
 count--
 }
 }
@@ -10,5 +13,5 @@ if(count==2){
 console.log("Prime");
 }
 else{
-console.log("No");
+console.log("Not a Prime Number");
 }
